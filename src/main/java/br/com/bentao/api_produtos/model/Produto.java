@@ -21,10 +21,10 @@ public class Produto {
     }
 
     // Getters e Setters
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
+    public Long getId() { return id; } // devolve o valor do atributo id
+    public void setId(Long id) { this.id = id; }// altera o valor do atributo id
 
-    public String getNome() { return nome; }
+    public String getNome() { return nome; } //igual ao de cima
     public void setNome(String nome) { this.nome = nome; }
 
     public Double getPreco() { return preco; }
